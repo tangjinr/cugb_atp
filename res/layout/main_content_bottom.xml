@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="62dp"
+    android:background="#f2f2f2"
+    android:orientation="horizontal" >
+
+    <!-- LinearLayout有了layout_weight=1(占用屏幕中剩余量(剩余量)的100%)属性，又orientation="horizontal"，所以不用layout_width属性了 -->
+    <LinearLayout
+        android:id="@+id/id_ll_dayi"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/id_img_dayi"
+            android:clickable="false"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/dayi2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ll_daer"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/id_img_daer"
+            android:clickable="false"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/daer1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ll_dasan"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/id_img_dasan"
+            android:clickable="false"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/dasan1" />
+    </LinearLayout>
+
+</LinearLayout>

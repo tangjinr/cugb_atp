@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>  
+    
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+	android:fromXDelta="-100%"
+	android:toXDelta="0%"
+	android:fromYDelta="0%"
+	android:toYDelta="0%"
+	android:duration="2000" />
+
+<!-- 
+1.Alpha：淡入淡出效果
+2.Scale：缩放效果
+3.Rotate：旋转效果
+4.Translate：移动效果
+-->
+
+<!-- translate 位置转移动画效果
+fromXDelta 属性为动画起始时 X坐标上的位置
+toXDelta 属性为动画结束时 X坐标上的位置
+fromYDelta 属性为动画起始时 Y坐标上的位置
+toYDelta 属性为动画结束时 Y坐标上的位置
+注意:
+以上两个属性值 从0%-100%中取值（相对于屏幕的百分比）
+50%为物件的X或Y方向坐标上的中点位置
+没有指定fromXType toXType fromYType toYType 时候，
+默认是以自己为相对参照物 
+长整型值：
+duration 属性为动画持续时间
+说明: 时间以毫秒为单位
+-->
